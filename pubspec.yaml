@@ -10,9 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.15.0
+  intl: ^0.15.7
   tuple: ^1.0.1
-  date_utils: ^0.1.0
+  date_utils:
+    git:
+      url: https://github.com/dannyhch/date_utils.git
 
 dev_dependencies:
   flutter_test:
